@@ -54,20 +54,16 @@ Skills Demonstrated
 Disclaimer
 
 This project is intended for educational purposes only. Scan only systems that you own or have explicit permission to test.
-Screenshots
+## Screenshots
 
-GUI Home
+### GUI Home
+![GUI Home](screenshots/gui-home.png)
 
-"GUI Home" (screenshots/gui-home.png)
+### Local Host Scan
+![Local Host Scan](screenshots/localhost-scan.png)
 
-Local Host Scan
+### Cloudflare DNS Scan
+![Cloudflare DNS Scan](screenshots/cloudflare-scan.png)
 
-"Local Host Scan" (screenshots/localhost-scan.png)
-
-Cloudflare DNS Scan
-
-"Cloudflare DNS Scan" (screenshots/cloudflare-scan.png)
-
-Google DNS Scan
-
-"Google DNS Scan" (screenshots/google-dns-scan.png)
+### Google DNS Scan
+![Google DNS Scan](screenshots/google-dns-scan.png)
