@@ -1,26 +1,56 @@
-# Network Scanning Using Nmap
+Network Scanner using Nmap
 
-## Objective
-Perform network reconnaissance and identify open ports and services.
+Overview
 
-## Tools Used
-- Kali Linux
+A Python-based GUI Network Scanner built using Python, Tkinter, and Nmap. This tool performs host discovery, OS fingerprinting, service detection, and port scanning for local and remote targets. Multi-threading is used to keep the GUI responsive during scans.
+
+Features
+
+- Host Discovery
+- Port Scanning
+- Service Detection
+- OS Fingerprinting
+- GUI built with Tkinter
+- Multi-threaded Scanning
+
+Technologies Used
+
+- Python
+- Python-Nmap
 - Nmap
+- Tkinter
+- Kali Linux
 
-## Command Used
+Targets Tested
 
-```bash
-nmap -F scanme.nmap.org
-## Findings
+- Localhost (127.0.0.1)
+- Google DNS (8.8.8.8)
+- Cloudflare DNS (1.1.1.1)
+- scanme.nmap.org (Official Nmap Test Server)
+- Authorized Remote Host (Permission obtained)
 
-- Identified open ports 21 (FTP), 22 (SSH), and 80 (HTTP)
-- Detected OpenSSH service version
-- Detected Apache HTTP Server version
-- Gathered basic operating system information
-- Performed network reconnaissance using Nmap
+Sample Results
 
-## Additional Commands Used
+Google DNS (8.8.8.8)
 
-```bash
-nmap -F scanme.nmap.org
-nmap -F -sV scanme.nmap.org
+- Host Status: Up
+- Open Ports: 53, 443
+
+Cloudflare DNS (1.1.1.1)
+
+- Host Status: Up
+- Open Ports: 53, 80, 443, 8080
+
+Skills Demonstrated
+
+- Network Reconnaissance
+- Host Discovery
+- Port Scanning
+- Service Enumeration
+- OS Detection
+- Python GUI Development
+- Multi-threading
+
+Disclaimer
+
+This project is intended for educational purposes only. Scan only systems that you own or have explicit permission to test.
