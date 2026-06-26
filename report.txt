@@ -1,0 +1,58 @@
+NETWORK SCANNER USING NMAP
+
+Project:
+Python GUI Network Scanner using Nmap
+
+Targets Tested:
+1. Localhost (127.0.0.1)
+2. Google DNS (8.8.8.8)
+3. Cloudflare DNS (1.1.1.1)
+4. scanme.nmap.org (Official Nmap Test Server)
+5. Remote Host (Authorized Test)
+
+Features:
+- Host Discovery
+- Port Scanning
+- Service Detection
+- OS Fingerprinting
+- GUI Interface using Tkinter
+- Multi-threaded Scanning
+
+Sample Findings:
+
+Target: 8.8.8.8
+Status: Host Up
+Open Ports:
+- 53/tcp (DNS)
+- 443/tcp (HTTPS)
+
+Target: 1.1.1.1
+Status: Host Up
+Open Ports:
+- 53/tcp
+- 80/tcp
+- 443/tcp
+- 8080/tcp
+
+Tools Used:
+- Kali Linux
+- Python
+- Python-nmap
+- Nmap
+- Tkinter
+
+Conclusion:
+Successfully developed a Python GUI Network Scanner capable of performing host discovery, service detection, port scanning, and OS fingerprinting on authorized local and remote targets.
+
+
+
+
+
+
+
+
+
+
+
+
+
