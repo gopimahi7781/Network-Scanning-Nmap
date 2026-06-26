@@ -1,4 +1,4 @@
-# Network Scanner using Nmap
+# Network Scanner using Nmap (Python + GUI)
 
 # Overview
 
