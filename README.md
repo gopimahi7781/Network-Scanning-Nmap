@@ -1,10 +1,10 @@
-Network Scanner using Nmap
+# Network Scanner using Nmap
 
-Overview
+# Overview
 
 A Python-based GUI Network Scanner built using Python, Tkinter, and Nmap. This tool performs host discovery, OS fingerprinting, service detection, and port scanning for local and remote targets. Multi-threading is used to keep the GUI responsive during scans.
 
-Features
+# Features
 
 - Host Discovery
 - Port Scanning
@@ -13,7 +13,7 @@ Features
 - GUI built with Tkinter
 - Multi-threaded Scanning
 
-Technologies Used
+# Technologies Used
 
 - Python
 - Python-Nmap
@@ -21,7 +21,7 @@ Technologies Used
 - Tkinter
 - Kali Linux
 
-Targets Tested
+# Targets Tested
 
 - Localhost (127.0.0.1)
 - Google DNS (8.8.8.8)
@@ -29,7 +29,7 @@ Targets Tested
 - scanme.nmap.org (Official Nmap Test Server)
 - Authorized Remote Host (Permission obtained)
 
-Sample Results
+# Sample Results
 
 Google DNS (8.8.8.8)
 
@@ -41,7 +41,7 @@ Cloudflare DNS (1.1.1.1)
 - Host Status: Up
 - Open Ports: 53, 80, 443, 8080
 
-Skills Demonstrated
+# Skills Demonstrated
 
 - Network Reconnaissance
 - Host Discovery
@@ -51,7 +51,7 @@ Skills Demonstrated
 - Python GUI Development
 - Multi-threading
 
-Disclaimer
+# Disclaimer
 
 This project is intended for educational purposes only. Scan only systems that you own or have explicit permission to test.
 ## Screenshots
